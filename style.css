@@ -1,0 +1,41 @@
+body{
+    padding: 10px 60px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 7rem;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+ul{
+    display: flex;
+    list-style: none;
+}
+ul .liBorder{
+    border-right: 1px solid black;
+}
+ul li{
+    padding: 0px 20px;
+}
+main{
+    display: flex;
+    justify-content: center;
+}
+#imgProfil{
+    width: 20%;
+    border-radius: 40rem;
+    margin-right: 40px;
+}
+#Apropos{
+    width: 20rem;
+}
+h2{
+    font-size: 2rem;
+}
+#button{
+    display: flex;
+    justify-content: space-between;
+}
