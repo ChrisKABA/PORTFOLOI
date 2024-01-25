@@ -102,10 +102,28 @@ footer{
 #logoSociaux i{
     font-size: 1.3rem;
 }
-/******************* CV *************/
+
+/**** CV ****/
 
 #h2Cv{
-    font-size: 2rem;
+    font-size: 1.7rem;
+    margin-bottom: 2.7rem;
+}
+section{
+    border-top: 1px solid #ececec;
+}
+section h3{
+    font-size: 1.4rem;
+    margin-bottom: 2.3rem;
+}
+#mainCv{
+    padding: 6.3rem;
+}
+.headerCvH4{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 0px;
 }
 /****************** PROJETS ***************/
 #mainProjets{
@@ -132,24 +150,43 @@ footer{
 
 /****************** CONTACT ***************/
 
+#mainContact{
+    margin-top: 7rem;
+    margin-bottom: 20rem ;
+    padding: 0% 10%;
+    font-size: 1.5rem;
+}
+#mainContact h2{
+    font-size: 2rem;
+}
 #mainContact section{
     display: flex;
     justify-content: space-between;
 }
 .blocContact{
     display: flex;
-    justify-content: space-between;
     gap: 6%;
     margin-bottom: 10px;
 }
 .inputContact{
-    height: 30px;
+    height: 2.5rem;
 }
 #mainContact input, #mainContact textarea{
-    width: 220px;
+    width: 20rem;
+}
+textarea{
+    height: 150px;
 }
 #mainContact input, #mainContact textarea{
     margin-top: 10px;
 }
-
-
+#blocContact3{
+    align-items: center;
+}
+#btnEnvoyer{
+    border-radius: 50%;
+    height: 150px;
+    width: 150px !important;
+    background-color: orange;
+    border: 0.5px solid black;
+}
