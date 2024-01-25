@@ -9,12 +9,12 @@
 </head>
 <body>
     <header>
-        <div id="divName"><h1><a href="#">Chris Kaba</a></h1></div>
+        <div id="divName"><h1><a href="./index.html">Chris Kaba</a></h1></div>
         <div>
             <ul class="puceHeader">
                 <li class="liBorder"><a href="./cv.html">CV</a></li>
-                <li class="liBorder"><a href="./projets.html">Projets</a></li>
-                <li><a href="#">Contact</a></li>
+                    <li class="liBorder"><a href="./projets.html">Projets</a></li>
+                    <li><a href="./contact.html">Contact</a></li>
             </ul>
         </div>
     </header>
@@ -52,17 +52,41 @@
                         <input type="text" name="subject" id="subject" class="inputContact">
                     </div>
                 </div>
-                <div class="blocContact">
+                <div class="blocContact" id="blocContact3">
                     <div>
                         <label for="message">Message</label><br>
                         <textarea name="message" id="message"  rows="10"></textarea>
                     </div>
                     <div>
-                        <input type="submit" name="Envoyer">
+                        <label></label><br>
+                        <input type="submit" name="Envoyer" id="btnEnvoyer">
                     </div>
                 </div>
             </form>
         </section>
     </main>
+    <footer>
+        <div id="divFooter">
+            <div id="divFooter2">
+                <div>
+                    <div class="title">Télephone</div>
+                    <div class="content"><a href="">123-456-7890</a></div>
+                </div>
+                <div>
+                    <div class="title">Email</div>
+                    <div><a href="">Chriskaba7@gmail.com</a></div>
+                </div>
+                <div>
+                    <div class="title">Suivez-moi</div>
+                    <div id="logoSociaux">
+                        <i class="fa fa-instagram" aria-hidden="true"></i>
+                        <i class="fa fa-linkedin" aria-hidden="true"></i>
+                        <i class="fa fa-facebook-official" aria-hidden="true"></i>
+                    </div>
+                </div>
+                <div id="copyrigth">© 2024 By Chris kaba</div>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
