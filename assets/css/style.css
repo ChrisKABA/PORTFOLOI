@@ -3,7 +3,7 @@ body{
     flex-direction: column;
     justify-content: space-between;
     padding: 10px 150px;
-    min-height: 100vh;
+    min-height: 90vh;
     font-family: '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
 }
 
@@ -40,7 +40,7 @@ ul li{
 #imgProfil{
     width: 40%;
     min-width: 400px;
-    max-width: 575px;
+    max-width: 480px;
     border-radius: 100rem;
     margin-right: 80px;
     cursor: pointer;
@@ -119,8 +119,8 @@ footer{
     display: flex;
     justify-content: space-between;
 }
-#logoSociaux i{
-    font-size: 1.3rem;
+#logoSociaux iconify-icon{
+    font-size: 1.5rem;
 }
 
 /****************** CV *******************/
@@ -166,7 +166,7 @@ section h3{
 }
 .boxSiteProjets{
     width: 40%;
-    border: 20px solid grey;
+    border: 20px solid rgb(210, 208, 208);
 }
 .imgSiteProjets{
     width: 100%;
@@ -175,7 +175,7 @@ section h3{
 /****************** CONTACT ***************/
 
 #mainContact{
-    padding: 0% 10%;
+    /* padding: 0% 10%; */
     font-size: 1.15rem;
 }
 #mainContact h2{
@@ -183,7 +183,7 @@ section h3{
 }
 #mainContact section{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 .blocContact{
     display: flex;
